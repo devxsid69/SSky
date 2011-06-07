@@ -1,0 +1,47 @@
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\CoreLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\CoreLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\DataAccessLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\obj\Debug\CoreLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\obj\Debug\CoreLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\MySQLConnectorLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\CoreLibrary\bin\Debug\MySQLConnectorLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\obj\Debug\CoreLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\bin\Debug\CoreLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\bin\Debug\CoreLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\bin\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\bin\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\CoreLibrary\obj\Debug\CoreLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\bin\Debug\CoreLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\bin\Debug\CoreLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\bin\Debug\DataAccessLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\obj\Debug\CoreLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CoreLibrary\obj\Debug\CoreLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\bin\Debug\CoreLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\bin\Debug\CoreLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\bin\Debug\DataAccessLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\bin\Debug\ServicesLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\bin\Debug\DataAccessLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\bin\Debug\ServicesLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\obj\Debug\CoreLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CoreLibrary\obj\Debug\CoreLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\bin\Debug\CoreLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\bin\Debug\CoreLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\bin\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\bin\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\obj\Debug\CoreLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\CoreLibrary\obj\Debug\CoreLibrary.pdb

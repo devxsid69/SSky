@@ -1,0 +1,41 @@
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\bin\Debug\MySQLConnectorLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\bin\Debug\MySQLConnectorLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll.config
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll.config
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll.config
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\bin\Debug\ServicesLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\bin\Debug\ServicesLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll.config
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb

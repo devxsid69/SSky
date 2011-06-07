@@ -1,0 +1,33 @@
+<%--
+Plantilla de máscara predeterminada. Las siguientes máscaras se proporcionan sólo como ejemplos.
+
+1. Máscara de control con nombre. SkinId debería definirse de forma única porque
+no se permite que haya varios SkinId por tipo de control en el mismo tema.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Máscara predeterminada. Skinid no está definido Sólo se permite 
+   una máscara de control por tipo de control en el mismo tema.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:TextBox  runat="server" BorderColor="Silver" BorderStyle="Solid" Font-Bold="True" ForeColor="#666666"
+    Font-Names="Verdana" Font-Size="0.6em"  BorderWidth="1" Height="17px" Width="180px"></asp:TextBox>
+    <asp:TextBox  runat="server" BorderColor="Silver" BorderStyle="Solid" Font-Bold="True" ForeColor="#666666"
+    Font-Names="Verdana" Font-Size="0.6em"  BorderWidth="1" Height="17px" Width="90px" SkinID="tbxDateSKIN"></asp:TextBox>
+<asp:TextBox  runat="server" BorderColor="Silver" BorderStyle="Solid" Font-Bold="True" ForeColor="#666666"
+    Font-Names="Verdana" Font-Size="0.6em"  BorderWidth="1" Height="100" Width="250" SkinID="tbxCommentSKIN"></asp:TextBox>  
+    
+<asp:DropDownList runat="server" BorderColor="Silver" BorderStyle="solid" Font-Bold="True" ForeColor="#666666"
+    Font-Names="Verdana" Font-Size="0.6em"  BorderWidth="1" Height="19px" Width="184px"></asp:DropDownList>
+
+<asp:Button runat="server"  BackColor="#666666" BorderColor="#CCCCCC" BorderStyle="Solid" 
+BorderWidth="1px" Font-Names="Verdana" Font-Size="1em" ForeColor="White"/>
+
+<asp:Label runat="server" Font-Names="Verdana" Font-Size="0.7em" ForeColor="#666666"/>
+<asp:Label runat="server" Font-Names="Verdana" Font-Size="0.7em" ForeColor="#ffffff" SkinID="lblWhite"/>
+
+<asp:RadioButtonList runat="server" BorderColor="Silver" BorderStyle="Solid" Font-Names="Verdana" Font-Size="0.6em"  BorderWidth="1" ForeColor="#666666">
+</asp:RadioButtonList>

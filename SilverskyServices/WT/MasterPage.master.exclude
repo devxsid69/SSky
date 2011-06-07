@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register src="UserControls/Menu/MenuView.ascx" tagname="MenuView" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="App_Themes/Default/Default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="top">
+        <table width="100%">
+            <tr>
+                <td align="center">
+                    <asp:Image ID="imgLogo" runat="server" 
+                        ImageUrl="~/App_Themes/Default/Images/Logo.jpg" Width="300px" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="divHeaderMP">
+                        <asp:ContentPlaceHolder ID="HeaderUserInfo" runat="Server">
+                            <table width="100%">
+                                <tr>
+                                    <td style="width:10%">
+                                    </td>
+                                    <td style="width:25%">
+                                        <asp:Label ID="lblTitlePageMaster" SkinID="LabelForTitles" runat="server"></asp:Label>
+                                    </td>
+                                    <td style="width:25%">
+                                        <asp:Label ID="lblFecha" runat="server"></asp:Label>                                
+                                    </td>
+                                    <td style="width:20%">
+                                        <asp:Label ID="lblWelcome" runat="server" Text="Bienvenido:"></asp:Label>
+                                        <asp:Label ID="lblUserCompleteName" runat="server" Text=""></asp:Label>
+                                    </td>
+                                    <td style="width:20%">
+                                        <asp:LoginStatus ID="LoginStatus1" runat="server" 
+                                            onloggingout="LoginStatus1_LoggingOut" 
+                                            />
+                                    </td>                                    
+                                </tr>
+                            </table>                        
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="cont_menus_left">
+        <uc1:MenuView ID="MenuView1" runat="server" />
+    </div>
+    <div id="MainContent">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

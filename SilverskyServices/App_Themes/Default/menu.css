@@ -1,0 +1,64 @@
+﻿/* blue grades - root level; text properties for states: normal, hover, click */
+.TM0i0 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	padding: 4px;
+}
+
+/* blue grades - root level; box properties for states: normal */
+.TM0o0 
+{
+	background-image:url('Images/btnMenu.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/* blue grades - root level; box properties for states: hover, click 
+background: #00AEF6;
+	border: 1px solid #4D99E6;
+*/
+.TM0o1 {
+	background-image:url('Images/btnMenu_hover.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/* blue grades - sub levels; text properties for states: normal, hover, click */
+.TM1i0 {
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-size: 10px;	
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	padding: 4px;
+}
+
+/* blue grades - sub levels; box properties for states: normal */
+.TM1o0 {
+	background-image:url('Images/btnMenu.jpg');
+	background-repeat: no-repeat;	
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/* blue grades - sub levels; box properties for states: hover, click */
+.TM1o1 {
+	background-image:url('Images/btnMenu_hover.jpg');
+	background-repeat: no-repeat;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+

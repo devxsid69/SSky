@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MB_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../App_Themes/DefaultVamsa/DefaultVamsa.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="top">
+    <table width="100%">
+            <tr>
+                <td align="center">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/MB/Images/Header.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="divHeaderMP">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="Server">
+                            <table width="100%">
+                                <tr>
+                                    <td style="width:10%">
+                                    </td>
+                                    <td style="width:25%">
+                                        <asp:Label ID="lblTitlePageMaster" SkinID="lblWhite" runat="server"></asp:Label>
+                                    </td>
+                                    <td style="width:25%">
+                                        <asp:Label ID="lblFecha" runat="server" SkinID="lblWhite" ></asp:Label>                                
+                                    </td>
+                                    <td style="width:20%">
+                                        <asp:Label ID="lblWelcome" runat="server" Text="Bienvenido:" SkinID="lblWhite" ></asp:Label>
+                                        <asp:Label ID="lblUserCompleteName" runat="server" Text="" SkinID="lblWhite" ></asp:Label>
+                                    </td>
+                                    <td style="width:20%">
+                                        <asp:LoginStatus ID="LoginStatus1" runat="server" 
+                                            onloggingout="LoginStatus1_LoggingOut" LoginText="Ingresar" LogoutText="Salir" 
+                                            />
+                                    </td>
+                                </tr>
+                            </table>
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div id="menuside" >
+            <div id="Menu" runat="server">            
+                <ul>
+                    <li>
+                        <a href="~/MB/Comments/Default.aspx" runat="server">Ver Mensajes</a>
+                    </li>
+                    <li id="mnConfigPage" runat="server">
+                        <a href="~/MB/Configuration/Default.aspx" runat="server">Configuración</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="MainContent">        
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+                
+            
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="HeaderUserInfo" runat="Server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <%--<div id="footer">
+        <asp:Image ID="imgPoweredBy" runat="server" ImageUrl="~/MB/Images/PoweredBy.jpg"  height="50px"/>
+    </div>--%>
+    </form>
+</body>
+</html>

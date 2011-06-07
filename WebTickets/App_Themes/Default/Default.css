@@ -1,0 +1,104 @@
+﻿body
+{
+	
+	font-family:Verdana;
+	FONT-SIZE: 0.8em;
+	font-style:normal;
+	color:#00AEF6;
+}
+div
+{
+    WIDTH: auto;
+}
+.main{
+	width:990px;
+	padding:0 0 7px 10px;
+}
+.cont_menus_left
+{
+    FONT-SIZE: 13px;
+	float:left;
+	width:232px;
+	clear:both;
+	margin:10px 0px 0 0px;
+    height: auto;
+    padding: 0 0 0 10px;
+    background-color:#818181;
+}
+.clear {
+	clear:both;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {display: inline-block;}
+.clearfix {display: block;}
+form
+{
+    MARGIN: 0px;
+    PADDING: 0px;
+}
+#container
+{
+    TEXT-ALIGN: left;
+    DISPLAY: block;
+    MARGIN: 0 auto;
+    WIDTH: 990px;
+    HEIGHT: auto;
+}
+.top
+{    
+    HEIGHT: 150PX;
+    
+}
+.left_b a
+{
+    font-size: 8pt;
+    color: #00AEF6;
+}
+#MainContent{
+	float:left;
+	WIDTH: 740px;
+    HEIGHT: auto;
+/*    BACKGROUND: url(images/Nav/background.png);*/
+	margin:10px 0 0 10px;	
+}
+#MainContent .LoginPage
+{
+    font-family: Verdana; 
+    font-size: 0.8em;
+    background-color:transparent;
+    float:left;
+	WIDTH: 740px;
+    HEIGHT: auto;    
+	margin:10px 0 0 10px;
+}
+
+.menu_link {
+	height:16px;
+	width:16px;
+	color:#FFF;
+	font-weight:bolder;
+	/*background-color:#CCCCCC;*/
+	/*background:url(Images) 0 0 no-repeat;*/
+	font-size:1em;
+	font-family:Verdana;
+	
+}
+.TdLabels
+{
+	width:150;
+}
+.TdTextBoxes
+{
+	width:150;
+}
+.TdValidators
+{
+	width:20px;	
+}

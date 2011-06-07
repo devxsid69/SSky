@@ -1,0 +1,33 @@
+<%--
+Plantilla de máscara predeterminada. Las siguientes máscaras se proporcionan sólo como ejemplos.
+
+1. Máscara de control con nombre. SkinId debería definirse de forma única porque
+no se permite que haya varios SkinId por tipo de control en el mismo tema.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Máscara predeterminada. Skinid no está definido Sólo se permite 
+   una máscara de control por tipo de control en el mismo tema.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+    
+<asp:Label runat="server" Font-Names="Verdana" Font-Size="1em" ForeColor="#00AEF6"/>
+<asp:Label runat="server" Font-Names="Verdana" Font-Size="1.5em" ForeColor="#00AEF6" SkinID="TitleLabelSkin" Font-Bold="true"/>
+<asp:Label runat="server" Font-Names="Verdana" Font-Size="2.5em" ForeColor="#00AEF6" SkinID="LabelMainTitleSkin" Font-Bold="true"/>
+<asp:Label runat="server" Font-Names="Verdana" Font-Size="1em" ForeColor="#CC3300" SkinID="LabelError" Font-Bold="true"/>
+
+<asp:Button runat="server" SkinID="LoginButtonSkin" BackColor="#FFFBFF" BorderColor="#CCCCCC" BorderStyle="Solid" 
+BorderWidth="1px" Font-Names="Verdana" Font-Size="1em" ForeColor="#284775"/>
+<asp:Button runat="server"  BackColor="#FFFBFF" BorderColor="#CCCCCC" BorderStyle="Solid" 
+BorderWidth="1px" Font-Names="Verdana" Font-Size="1em" ForeColor="#284775"/>
+
+<asp:TextBox  runat="server" BorderColor="Silver" BorderStyle="Solid" Font-Bold="True" ForeColor="Black"
+    Font-Names="Verdana" Font-Size="0.7em"  BorderWidth="1" Height="17px" Width="180px"></asp:TextBox>
+<asp:TextBox  runat="server" BorderColor="Silver" BorderStyle="Solid" Font-Bold="True" ForeColor="Black"
+    Font-Names="Verdana" Font-Size="0.7em"  BorderWidth="1" Height="150px" Width="176px" SkinID="tbxDescriptionSKIN"></asp:TextBox>
+    
+<asp:DropDownList runat="server" BorderColor="Silver" BorderStyle="Solid" Font-Bold="True" ForeColor="Black"
+    Font-Names="Verdana" Font-Size="0.7em"  BorderWidth="1" Height="19px" Width="184px"></asp:DropDownList>

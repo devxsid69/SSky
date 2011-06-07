@@ -1,0 +1,15 @@
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CaptchaCtrl\bin\Debug\CaptchaCtrl.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CaptchaCtrl\bin\Debug\CaptchaCtrl.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CaptchaCtrl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CaptchaCtrl\obj\Debug\CaptchaCtrl.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\CaptchaCtrl\obj\Debug\CaptchaCtrl.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CaptchaCtrl\bin\Debug\CaptchaCtrl.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CaptchaCtrl\bin\Debug\CaptchaCtrl.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CaptchaCtrl\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CaptchaCtrl\obj\Debug\CaptchaCtrl.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\CaptchaCtrl\obj\Debug\CaptchaCtrl.pdb
+F:\Projects .Net 3.5\SilverskyServices\CaptchaCtrl\bin\Debug\CaptchaCtrl.dll
+F:\Projects .Net 3.5\SilverskyServices\CaptchaCtrl\bin\Debug\CaptchaCtrl.pdb
+F:\Projects .Net 3.5\SilverskyServices\CaptchaCtrl\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\SilverskyServices\CaptchaCtrl\obj\Debug\CaptchaCtrl.dll
+F:\Projects .Net 3.5\SilverskyServices\CaptchaCtrl\obj\Debug\CaptchaCtrl.pdb

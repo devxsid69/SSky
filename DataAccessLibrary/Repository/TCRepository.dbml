@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SilverskyServices" Class="TCRepositoryDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PCLEO;Initial Catalog=SilverskyServices;Persist Security Info=True;User ID=sa" SettingsObjectName="DataAccessLibrary.Properties.Settings" SettingsPropertyName="SilverskyServicesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="TicketControl.tbl_Tickets" Member="tbl_Tickets">
+    <Type Name="tbl_Tickets">
+      <Column Name="IdTicket" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdCategory" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdAssignedTo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClosedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ClosedOnByUser" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CloseDescription" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IdPriority" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TicketStatus" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Categories_tbl_Tickets" Member="tbl_Categories" ThisKey="IdCategory" OtherKey="IdCategory" Type="tbl_Categories" IsForeignKey="true" />
+      <Association Name="tbl_Users_tbl_Tickets" Member="tbl_Users" ThisKey="CreatedBy" OtherKey="IdUser" Type="tbl_Users" IsForeignKey="true" />
+      <Association Name="tbl_Users_tbl_Tickets1" Member="tbl_Users1" ThisKey="IdAssignedTo" OtherKey="IdUser" Type="tbl_Users" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Roles" Member="tbl_Roles">
+    <Type Name="tbl_Roles">
+      <Column Name="IdRole" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="RoleCode" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IdStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdApplication" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Roles_tbl_Roles_SiteMap" Member="tbl_Roles_SiteMap" ThisKey="IdRole" OtherKey="IdRole" Type="tbl_Roles_SiteMap" />
+      <Association Name="tbl_Roles_tbl_Users" Member="tbl_Users" ThisKey="IdRole" OtherKey="IdRole" Type="tbl_Users" />
+      <Association Name="tbl_Status_tbl_Roles" Member="tbl_Status" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Status" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Status" Member="tbl_Status">
+    <Type Name="tbl_Status">
+      <Column Name="IdStatus" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Status_tbl_Roles" Member="tbl_Roles" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Roles" />
+      <Association Name="tbl_Status_tbl_SiteMap" Member="tbl_SiteMap" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_SiteMap" />
+      <Association Name="tbl_Status_tbl_Categories" Member="tbl_Categories" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Categories" />
+      <Association Name="tbl_Status_tbl_Companies" Member="tbl_Companies" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Companies" />
+      <Association Name="tbl_Status_tbl_Users" Member="tbl_Users" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Users" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Roles_SiteMap" Member="tbl_Roles_SiteMap">
+    <Type Name="tbl_Roles_SiteMap">
+      <Column Name="IdRole" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IdSiteMap" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tbl_Roles_tbl_Roles_SiteMap" Member="tbl_Roles" ThisKey="IdRole" OtherKey="IdRole" Type="tbl_Roles" IsForeignKey="true" />
+      <Association Name="tbl_SiteMap_tbl_Roles_SiteMap" Member="tbl_SiteMap" ThisKey="IdRole" OtherKey="IdSiteMap" Type="tbl_SiteMap" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_SiteMap" Member="tbl_SiteMap">
+    <Type Name="tbl_SiteMap">
+      <Column Name="IdSiteMap" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RoleCode" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="URL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IdStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsBrowsable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IdParent" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbl_SiteMap_tbl_Roles_SiteMap" Member="tbl_Roles_SiteMap" ThisKey="IdSiteMap" OtherKey="IdRole" Type="tbl_Roles_SiteMap" />
+      <Association Name="tbl_Status_tbl_SiteMap" Member="tbl_Status" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Status" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="TicketControl.tbl_Categories" Member="tbl_Categories">
+    <Type Name="tbl_Categories">
+      <Column Name="IdCategory" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IdUserAssigned" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AlternativeMail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IdStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Categories_tbl_Tickets" Member="tbl_Tickets" ThisKey="IdCategory" OtherKey="IdCategory" Type="tbl_Tickets" />
+      <Association Name="tbl_Status_tbl_Categories" Member="tbl_Status" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Status" IsForeignKey="true" />
+      <Association Name="tbl_Users_tbl_Categories" Member="tbl_Users" ThisKey="IdUserAssigned" OtherKey="IdUser" Type="tbl_Users" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="TicketControl.tbl_Companies" Member="tbl_Companies">
+    <Type Name="tbl_Companies">
+      <Column Name="IdCompany" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IdStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Companies_tbl_Users" Member="tbl_Users" ThisKey="IdCompany" OtherKey="IdCompany" Type="tbl_Users" />
+      <Association Name="tbl_Status_tbl_Companies" Member="tbl_Status" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Status" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Applications" Member="tbl_Applications">
+    <Type Name="tbl_Applications">
+      <Column Name="IdApplication" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Applications_tbl_Users" Member="tbl_Users" ThisKey="IdApplication" OtherKey="IdApplication" Type="tbl_Users" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Users" Member="tbl_Users">
+    <Type Name="tbl_Users">
+      <Column Name="IdUser" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="HashCode" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IdRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IdCompany" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdApplication" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Users_tbl_Tickets" Member="tbl_Tickets" ThisKey="IdUser" OtherKey="CreatedBy" Type="tbl_Tickets" />
+      <Association Name="tbl_Users_tbl_Tickets1" Member="tbl_Tickets1" ThisKey="IdUser" OtherKey="IdAssignedTo" Type="tbl_Tickets" />
+      <Association Name="tbl_Users_tbl_Categories" Member="tbl_Categories" ThisKey="IdUser" OtherKey="IdUserAssigned" Type="tbl_Categories" />
+      <Association Name="tbl_Applications_tbl_Users" Member="tbl_Applications" ThisKey="IdApplication" OtherKey="IdApplication" Type="tbl_Applications" IsForeignKey="true" />
+      <Association Name="tbl_Companies_tbl_Users" Member="tbl_Companies" ThisKey="IdCompany" OtherKey="IdCompany" Type="tbl_Companies" IsForeignKey="true" />
+      <Association Name="tbl_Roles_tbl_Users" Member="tbl_Roles" ThisKey="IdRole" OtherKey="IdRole" Type="tbl_Roles" IsForeignKey="true" />
+      <Association Name="tbl_Status_tbl_Users" Member="tbl_Status" ThisKey="IdStatus" OtherKey="IdStatus" Type="tbl_Status" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="TicketControl.tbl_GlobalAttributes" Member="tbl_GlobalAttributes">
+    <Type Name="tbl_GlobalAttributes">
+      <Column Name="IdAttribute" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="SCMailBox.tbl_Comments" Member="tbl_Comments">
+    <Type Name="tbl_Comments">
+      <Column Name="IdComment" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Subject" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IsRead" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CompanyWorking" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="SecurityRating" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="CompanyOpinionRating" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="SupervisorRating" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="GroupDirectorRating" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="WorkEnviromentRating" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="SCMailBox.tbl_GlobalAttributes" Member="tbl_GlobalAttributesSCM">
+    <Type Name="tbl_GlobalAttributesSCM">
+      <Column Name="IdAttribute" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ShowInGrid" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,57 @@
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\SecurityProvider.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\SecurityProvider.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\obj\Debug\SecurityProvider.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\obj\Debug\SecurityProvider.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\CoreLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\MySQLConnectorLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\CoreLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\MySQLConnectorLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\SecurityProvider\bin\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\obj\Debug\SecurityProvider.pdb
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\SecurityProvider.dll
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\SecurityProvider.pdb
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\CoreLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\CoreLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\bin\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\SecurityProvider\obj\Debug\SecurityProvider.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\SecurityProvider.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\SecurityProvider.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\CoreLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\CoreLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\DataAccessLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\obj\Debug\SecurityProvider.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\SecurityProvider\obj\Debug\SecurityProvider.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\SecurityProvider.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\SecurityProvider.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\CoreLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\ServicesLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\DataAccessLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\CoreLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\DataAccessLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\bin\Debug\ServicesLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\obj\Debug\SecurityProvider.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\SecurityProvider\obj\Debug\SecurityProvider.pdb
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\SecurityProvider.dll
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\SecurityProvider.pdb
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\CoreLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\DataAccessLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\CoreLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\DataAccessLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\obj\Debug\SecurityProvider.dll
+F:\Projects .Net 3.5\SilverskyServices\SecurityProvider\obj\Debug\SecurityProvider.pdb

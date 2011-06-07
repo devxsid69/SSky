@@ -1,0 +1,25 @@
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\ServicesLibrary\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\ServicesLibrary\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\ServicesLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\ServicesLibrary\obj\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\WebTicketControl\ServicesLibrary\obj\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\ServicesLibrary\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\ServicesLibrary\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\WebTicketControl\ServicesLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\WebTicketControl\ServicesLibrary\obj\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\WebTicketControl\ServicesLibrary\obj\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\ServicesLibrary\bin\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\ServicesLibrary\bin\Debug\ServicesLibrary.pdb
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\ServicesLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\ServicesLibrary\obj\Debug\ServicesLibrary.dll
+C:\Documents and Settings\Leonardo Ruiz\Mis documentos\Visual Studio 2008\Projects\SilverskyServices\ServicesLibrary\obj\Debug\ServicesLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\ServicesLibrary\bin\Debug\ServicesLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\ServicesLibrary\bin\Debug\ServicesLibrary.pdb
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\ServicesLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\ServicesLibrary\obj\Debug\ServicesLibrary.dll
+D:\Proyectos\Proyectos .NET 3.5\.NET 3.5 VS2008\SilverskyServices\ServicesLibrary\obj\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\ServicesLibrary\bin\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\ServicesLibrary\bin\Debug\ServicesLibrary.pdb
+F:\Projects .Net 3.5\SilverskyServices\ServicesLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects .Net 3.5\SilverskyServices\ServicesLibrary\obj\Debug\ServicesLibrary.dll
+F:\Projects .Net 3.5\SilverskyServices\ServicesLibrary\obj\Debug\ServicesLibrary.pdb

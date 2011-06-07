@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middle Tier", "Middle Tier", "{3BEEF428-CE78-4D75-996F-D2B412B6B84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesLibrary", "ServicesLibrary\ServicesLibrary.csproj", "{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Sites", "Web Sites", "{5B5D13EA-BF2C-46B6-AD47-304017D3C14F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityProvider", "SecurityProvider\SecurityProvider.csproj", "{A3A7F5E5-CB41-4685-B638-700789B82C60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security Providers", "Security Providers", "{7B22B3A3-6096-4AFB-9448-8FE9C760AB50}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverskyServices", "SilverskyServices\", "{F0D1AD6E-5C06-4FA8-A558-30B9A1D8970E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F}|CoreLibrary.dll;{A3A7F5E5-CB41-4685-B638-700789B82C60}|SecurityProvider.dll;{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D}|DataAccessLibrary.dll;{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB}|ServicesLibrary.dll;{87CB7E7C-87F7-43A6-8425-D23B22136566}|CaptchaCtrl.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SilverskyServices"
+		Debug.AspNetCompiler.PhysicalPath = "SilverskyServices\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SilverskyServices\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SilverskyServices"
+		Release.AspNetCompiler.PhysicalPath = "SilverskyServices\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SilverskyServices\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2095"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaCtrl", "CaptchaCtrl\CaptchaCtrl.csproj", "{87CB7E7C-87F7-43A6-8425-D23B22136566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{B0197331-111E-4399-A72D-A3E608DAAA5A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SSMailBox", "SSMailBox\", "{E7289A23-8B7C-4D20-AA2E-AF3C8557A925}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{87CB7E7C-87F7-43A6-8425-D23B22136566}|CaptchaCtrl.dll;{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F}|CoreLibrary.dll;{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D}|DataAccessLibrary.dll;{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB}|ServicesLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SSMailBox"
+		Debug.AspNetCompiler.PhysicalPath = "SSMailBox\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SSMailBox\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SSMailBox"
+		Release.AspNetCompiler.PhysicalPath = "SSMailBox\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SSMailBox\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1823"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A7F5E5-CB41-4685-B638-700789B82C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A7F5E5-CB41-4685-B638-700789B82C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A7F5E5-CB41-4685-B638-700789B82C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A7F5E5-CB41-4685-B638-700789B82C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D1AD6E-5C06-4FA8-A558-30B9A1D8970E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D1AD6E-5C06-4FA8-A558-30B9A1D8970E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D1AD6E-5C06-4FA8-A558-30B9A1D8970E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D1AD6E-5C06-4FA8-A558-30B9A1D8970E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{87CB7E7C-87F7-43A6-8425-D23B22136566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CB7E7C-87F7-43A6-8425-D23B22136566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CB7E7C-87F7-43A6-8425-D23B22136566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CB7E7C-87F7-43A6-8425-D23B22136566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7289A23-8B7C-4D20-AA2E-AF3C8557A925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7289A23-8B7C-4D20-AA2E-AF3C8557A925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7289A23-8B7C-4D20-AA2E-AF3C8557A925}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7289A23-8B7C-4D20-AA2E-AF3C8557A925}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBC01CBF-3E0E-40E6-91F4-8F6909F9495D} = {3BEEF428-CE78-4D75-996F-D2B412B6B84B}
+		{FDEE3264-0EA7-4C9A-89A9-B7A544DF275F} = {3BEEF428-CE78-4D75-996F-D2B412B6B84B}
+		{93BD7EAC-D2F2-40AC-8D01-CB6DF9ACBDCB} = {3BEEF428-CE78-4D75-996F-D2B412B6B84B}
+		{F0D1AD6E-5C06-4FA8-A558-30B9A1D8970E} = {5B5D13EA-BF2C-46B6-AD47-304017D3C14F}
+		{E7289A23-8B7C-4D20-AA2E-AF3C8557A925} = {5B5D13EA-BF2C-46B6-AD47-304017D3C14F}
+		{A3A7F5E5-CB41-4685-B638-700789B82C60} = {7B22B3A3-6096-4AFB-9448-8FE9C760AB50}
+		{87CB7E7C-87F7-43A6-8425-D23B22136566} = {B0197331-111E-4399-A72D-A3E608DAAA5A}
+	EndGlobalSection
+EndGlobal
